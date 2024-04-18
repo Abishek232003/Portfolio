@@ -1,0 +1,14 @@
+.cdf
+{
+    background-color: rgb(255, 247, 0);
+    display:grid;
+    /*grid-template-columns:fr 10fr auto;*/
+   /* grid-template-columns:1fr 10fr auto;*/
+   /*grid-template-columns: minmax(500px,500px) 2fr 1fr;*/
+   
+    column-gap: 20px;
+}
+.p1
+{
+    background-color: rgb(55, 255, 0);
+}

@@ -1,0 +1,224 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+div {
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* ID Selector */
+#division1 {
+    background-color: #f7f7f7;
+}
+
+#division2 {
+    background-color: #eaeaea;
+}
+
+#division3 {
+    background-color: #f2f2f2;
+}
+
+/* Class Selector */
+.sibling {
+    font-style: italic;
+}
+
+/* Descendant Combinator */
+div p {
+    margin: 5px 0;
+}
+
+/* Child Combinator */
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+div {
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* ID Selector */
+#division1 {
+    background-color: #f7f7f7;
+}
+
+#division2 {
+    background-color: #eaeaea;
+}
+
+#division3 {
+    background-color: #f2f2f2;
+}
+
+/* Class Selector */
+.sibling {
+    font-style: italic;
+}
+
+/* Descendant Combinator */
+div p {
+    margin: 5px 0;
+}
+
+/* Child Combinator */
+div > p {
+    font-weight: bold;
+}
+
+/* Adjacent Sibling Combinator */
+div + p {
+    color: #336699;
+}
+
+/* General Sibling Combinator */
+div ~ p {
+    text-decoration: underline;
+}
+
+/* First Child Pseudo-element */
+div p:first-child {
+    color: #ff0000;
+}
+
+/* Last Child Pseudo-element */
+div p:last-child {
+    color: #00ff00;
+}
+
+/* Nth Child Pseudo-element */
+div p:nth-child(odd) {
+    background-color: #ddd;
+}
+
+/* First-of-type Pseudo-element */
+div p:first-of-type {
+    font-size: 18px;
+}
+
+/* Last-of-type Pseudo-element */
+div p:last-of-type {
+    font-size: 16px;
+}
+
+
+/* Adjacent Sibling Combinator */
+div + p {
+    color: #336699;
+}
+
+/* General Sibling Combinator */
+div ~ p {
+    text-decoration: underline;
+}
+
+/* First Child Pseudo-element */
+div p:first-child {
+    color: #ff0000;
+}
+
+/* Last Child Pseudo-element */
+div p:last-child {
+    color: #00ff00;
+}
+
+/* Nth Child Pseudo-element */
+div p:nth-child(odd) {
+    background-color: #ddd;
+}
+
+/* First-of-type Pseudo-element */
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+div {
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* ID Selector */
+#division1 {
+    background-color: #f7f7f7;
+}
+
+#division2 {
+    background-color: #eaeaea;
+}
+
+#division3 {
+    background-color: #f2f2f2;
+}
+
+/* Class Selector */
+.sibling {
+    font-style: italic;
+}
+
+/* Descendant Combinator */
+#division1{
+    margin: 10px 5;
+}
+
+/* Child Combinator */
+div > p {
+    font-weight: bold;
+}
+
+/* Adjacent Sibling Combinator */
+div + p {
+    color: #336699;
+}
+
+/* General Sibling Combinator */
+div ~ p {
+    text-decoration: underline;
+}
+
+/* First Child Pseudo-element */
+div p:first-child {
+    color: #ff0000;
+}
+
+/* Last Child Pseudo-element */
+div p:last-child {
+    color: #00ff00;
+}
+
+/* Nth Child Pseudo-element */
+div p:nth-child(odd) {
+    background-color: #ddd;
+}
+
+/* First-of-type Pseudo-element */
+div p:first-of-type {
+    font-size: 18px;
+}
+
+/* Last-of-type Pseudo-element */
+div p:last-of-type {
+    font-size: 16px;
+}
+
+
+/* Last-of-type Pseudo-element */
+div p:last-of-type {
+    font-size: 16px;
+}
